@@ -70,7 +70,7 @@ export default function Archive() {
 
 function IssuesCard({ title, slug, coordinators, cardImage }: IssuesCardType) {
   return (
-    <Link href={`journal/${slug}`}>
+    <Link href={`${slug}`}>
       <div className="flex flex-col rounded-2xl p-5 border border-gray-100 hover:border-sedGreen transition duration-300 ease-in-out h-full">
         <img
           src={cardImage.asset.url}
