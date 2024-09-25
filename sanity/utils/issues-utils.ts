@@ -1,7 +1,4 @@
-import {
-  IssuesCardType,
-  IssuesType,
-} from "@/app/(site)/research-publication/journal/Archive";
+import { IssuesCardType, IssuesType } from "@/app/page";
 import { createClient, groq } from "next-sanity";
 
 const ClientConfig = {
